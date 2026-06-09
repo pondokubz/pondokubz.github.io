@@ -1,7 +1,142 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Basic Meta -->
+    <title>Portofolio Saya | Pondok UBZ</title>
+    <meta name="description" content="Portofolio Pondok UBZ - Kumpulan karya, prestasi, dan aktivitas santri Pondok Pesantren UBZ. Temukan inspirasi dan informasi lengkap tentang kami.">
+
+    <!-- Open Graph / Social Media Preview -->
+    <meta property="og:title" content="Portofolio Saya | Pondok UBZ">
+    <meta property="og:description" content="Selamat datang di halaman portofolio Pondok UBZ. Karya, prestasi, dan aktivitas santri yang penuh inspirasi.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/2c3e50/ffffff?text=Pondok+UBZ"> <!-- GANTI DENGAN GAMBAR ASLI KAMU -->
+    <meta property="og:url" content="https://username.github.io"> <!-- GANTI dengan link website kamu nanti -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Pondok UBZ">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portofolio Saya | Pondok UBZ">
+    <meta name="twitter:description" content="Kumpulan karya dan aktivitas Pondok Pesantren UBZ">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/2c3e50/ffffff?text=Pondok+UBZ">
+
+    <!-- Favicon (Icon kecil di title) -->
+    <link rel="icon" href="https://via.placeholder.com/32x32/2c3e50/ffffff?text=UBZ" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2.5rem 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.8rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #2c3e50;
+            color: white;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<p> isi <p>
+    <header>
+        <h1>Portofolio Pondok UBZ</h1>
+        <p>Selamat Datang di Halaman Karya dan Prestasi Pondok UBZ</p>
+        <a href="test.html">Lihat Halaman Lain</a>
+    </header>
+
+    <div class="container">
+        <section id="tentang">
+            <h2>Tentang Pondok UBZ</h2>
+            <p>
+                Halo! Kami adalah <strong>Pondok UBZ</strong>, sebuah lembaga pendidikan Islam yang sedang berkembang. 
+                Di halaman ini kami memamerkan berbagai karya, prestasi, dan aktivitas santri untuk inspirasi dan informasi.
+            </p>
+        </section>
+
+        <section id="karya">
+            <h2>Karya Terbaru</h2>
+            <div class="gallery">
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+1" alt="Karya 1">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+2" alt="Karya 2">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+3" alt="Karya 3">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak Kami</h2>
+            <p>
+                Kamu bisa menghubungi kami melalui:<br>
+                - Email: <a href="mailto:pondokubz@gmail.com">pondokubz@gmail.com</a><br>
+                - WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a><br>
+                - Instagram: <a href="#" target="_blank">@pondokubz</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pondok UBZ. Semua hak cipta dilindungi.</p>
+    </footer>
 </body>
 </html>
