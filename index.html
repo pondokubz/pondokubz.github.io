@@ -1,7 +1,121 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya | Pondok UBZ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.02);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #2c3e50;
+            color: white;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<p> isi <p>
+    <header>
+        <h1>Portofolio Saya</h1>
+        <p>Selamat Datang di Halaman Karya Pondok UBZ</p>
+    </header>
+
+    <div class="container">
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>
+                Halo! Saya adalah <strong>pondok ubz</strong>, seorang <em>pembelajar</em> yang senang berkreasi.
+                Di halaman ini, saya memamerkan beberapa karya saya untuk belajar dan berbagi dengan orang lain.
+            </p>
+        </section>
+
+        <section id="karya">
+            <h2>Karya Terbaru</h2>
+            <div class="gallery">
+                <!-- Ganti dengan gambar karya kamu -->
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+1" alt="Karya 1">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+2" alt="Karya 2">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200?text=Karya+3" alt="Karya 3">
+                    <p><a href="#">Lihat Detail</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>
+                Kamu bisa menghubungi saya melalui:
+                <br>
+                - Email: <a href="mailto:contoh@email.com">contoh@email.com</a>
+                <br>
+                - GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pondok UBZ. Semua hak cipta dilindungi.</p>
+    </footer>
 </body>
 </html>
